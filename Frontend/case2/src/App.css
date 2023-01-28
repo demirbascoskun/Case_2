@@ -1,0 +1,45 @@
+#root{
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 4%, rgba(1,88,146,1) 49%, rgba(0,212,255,1) 100%);
+    height: calc(100vh);
+  width: 100vw;
+}
+
+#main_container{
+  height: calc(100% - 80px);
+}
+
+.navbar{
+  background: transparent !important;
+}
+
+.navbar a {
+  color: white !important;
+}
+
+#profile_section{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: red;
+}
+
+#profile_section a{
+  margin: 0 5px;
+}
+#register-link{
+  text-align: center;
+}
+
+#register-link a{
+  color: #17a2b8 !important;
+}
+
+.filesingle{
+  cursor: pointer;
+}
+.filesingle:hover{
+  opacity: 0.5;
+
+}
+
